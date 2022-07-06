@@ -1,7 +1,7 @@
 function calc(num1, num2) {
-    var inside = "Scoped inside the function"
-    console.log(inside);
-    return num1 + num2;
+  var inside = "Scoped inside the function";
+  console.log(inside);
+  return num1 + num2;
 }
 
 // parametri funkcije su placeholderi za prave podatke sa kojima funkcija moze biti pozvana
@@ -25,12 +25,11 @@ let condition = true;
 let cond = true;
 
 if (condition) {
-    // kod se izvrsava za condition === true
+  // kod se izvrsava za condition === true
 } else if (cond) {
-    // bice izvrsen za cond === true + ako i samo ako if/predhodni else if nije bio izvrsen
-
+  // bice izvrsen za cond === true + ako i samo ako if/predhodni else if nije bio izvrsen
 } else {
-    // ovaj kod ce biti izvrsen ako if i svi else if pre njega nisu bili izvrseni
+  // ovaj kod ce biti izvrsen ako if i svi else if pre njega nisu bili izvrseni
 }
 
 // proveravanje da li je izraz true / false se radi u uslovu za if.. else if
@@ -39,11 +38,11 @@ if (condition) {
 // Samo vrednosti 1 i 0 se mogu direktno prevesti u true (1) / false (0)
 // Ostale vrednosti se tretiraju kao true (truthy) i samo par kao false (falsy) vrednosti
 // Ima samo 5 falsy vrednosti:
-    // 0
-    // null
-    // undefined
-    // ""
-    // NaN
+// 0
+// null
+// undefined
+// ""
+// NaN
 
 //=====================================================================================
 
@@ -58,20 +57,19 @@ if (condition) {
 let luckyNum = 8;
 
 switch (luckyNum) {
-    case 1:
-        console.log("1");
-        break;
-    case 2:
-        console.log("2");
-        break;
-    case 4:
-        console.log("4");
-        break;
-    default:
-        console.log("Default case");
-        break;
+  case 1:
+    console.log("1");
+    break;
+  case 2:
+    console.log("2");
+    break;
+  case 4:
+    console.log("4");
+    break;
+  default:
+    console.log("Default case");
+    break;
 }
-
 
 //=====================================================================================
 
